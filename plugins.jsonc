@@ -1,0 +1,82 @@
+[
+    {
+        "id": "papercast-arxiv",
+        "name": "ArXiV",
+        "author": "papercast-dev",
+        "description": "Collect papers from ArXiV",
+        "type": "collector",
+        "repo": "papercast-dev/papercast-arxiv"
+    },
+    // {
+    //     "id": "papercast-semanticscholar",
+    //     "name": "SemanticScholar",
+    //     "author": "papercast-dev",
+    //     "description": "Collect papers from Semantic Scholar",
+    //     "type": "collector",
+    //     "repo": "papercast-dev/papercast-semanticscholar"
+    // },
+    // {
+    //     "id": "papercast-pdf",
+    //     "name": "PDF",
+    //     "author": "papercast-dev",
+    //     "description": "Collect papers from PDF files",
+    //     "type": "collector",
+    //     "repo": "papercast-dev/papercast-pdf"
+    // },
+    // {
+    //     "id": "papercast-aeneas",
+    //     "name": "Aeneas",
+    //     "author": "papercast-dev",
+    //     "description": "Aeneas",
+    //     "type": "processor",
+    //     "repo": "papercast-dev/papercast-aeneas"
+    // },
+    // {
+    //     "id": "papercast-coqui-tts",
+    //     "name": "Coqui TTS",
+    //     "author": "papercast-dev",
+    //     "description": "Coqui TTS",
+    //     "type": "processor",
+    //     "repo": "papercast-dev/papercast-coqui-tts"
+    // },
+    {
+        "id": "papercast-grobid",
+        "name": "GROBID",
+        "author": "papercast-dev",
+        "description": "GROBID",
+        "type": "processor",
+        "repo": "papercast-dev/papercast-grobid"
+    },
+    // {
+    //     "id": "papercast-gtts",
+    //     "name": "Google TTS",
+    //     "author": "papercast-dev",
+    //     "description": "Google TTS",
+    //     "type": "processor",
+    //     "repo": "papercast-dev/papercast-gtts"
+    // },
+    // {
+    //     "id": "papercast-polly",
+    //     "name": "AWS Polly TTS",
+    //     "author": "papercast-dev",
+    //     "description": "AWS Polly TTS",
+    //     "type": "processor",
+    //     "repo": "papercast-dev/papercast-polly"
+    // },
+    {
+        "id": "papercast-say",
+        "name": "Say",
+        "author": "papercast-dev",
+        "description": "Say",
+        "type": "processor",
+        "repo": "papercast-dev/papercast-say"
+    },
+    {
+        "id": "papercast-github-pages-podcast",
+        "name": "GitHub Pages Podcast",
+        "author": "papercast-dev",
+        "description": "GitHub Pages Podcast",
+        "type": "publisher",
+        "repo": "papercast-dev/papercast-github-pages-podcast"
+    }
+]
