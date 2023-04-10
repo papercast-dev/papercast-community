@@ -8,14 +8,15 @@
         "repo": "papercast-dev/papercast-arxiv",
         "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/arxiv.png"
     },
-    // {
-    //     "id": "papercast-semanticscholar",
-    //     "name": "SemanticScholar",
-    //     "author": "papercast-dev",
-    //     "description": "Collect papers from Semantic Scholar",
-    //     "type": "collector",
-    //     "repo": "papercast-dev/papercast-semanticscholar"
-    // },
+    {
+        "id": "papercast-semanticscholar",
+        "name": "SemanticScholar",
+        "author": "papercast-dev",
+        "description": "Collect papers from Semantic Scholar",
+        "type": "collector",
+        "repo": "papercast-dev/papercast-semanticscholar",
+        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/semanticscholar.png"
+    },
     // {
     //     "id": "papercast-pdf",
     //     "name": "PDF",
