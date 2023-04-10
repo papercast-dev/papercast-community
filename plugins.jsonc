@@ -5,7 +5,8 @@
         "author": "papercast-dev",
         "description": "Collect papers from ArXiV",
         "type": "collector",
-        "repo": "papercast-dev/papercast-arxiv"
+        "repo": "papercast-dev/papercast-arxiv",
+        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/arxiv.png"
     },
     // {
     //     "id": "papercast-semanticscholar",
