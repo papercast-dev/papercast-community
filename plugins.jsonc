@@ -15,7 +15,7 @@
         "description": "Collect papers from Semantic Scholar",
         "type": "collector",
         "repo": "papercast-dev/papercast-semanticscholar",
-        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/semanticscholar.png"
+        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/semanticscholar.svg"
     },
     // {
     //     "id": "papercast-pdf",
