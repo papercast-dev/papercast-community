@@ -9,7 +9,7 @@
         "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/arxiv.png",
         "contributes": {
             "papercast.processors.ArxivProcessor": {
-                "short_description": "Collect papers from Semantic Scholar",
+                "short_description": "Collect papers from ArXiV",
                 "input_types": {
                     "arxiv_id": "str"
                 },
