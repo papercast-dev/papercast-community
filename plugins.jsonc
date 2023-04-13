@@ -6,9 +6,9 @@
         "description": "Collect papers from ArXiV",
         "type": "collector",
         "repo": "papercast-dev/papercast-arxiv",
-        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/arxiv.png",
         "contributes": {
             "papercast.processors.ArxivProcessor": {
+                "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/arxiv.png",
                 "short_description": "Collect papers from ArXiV",
                 "input_types": {
                     "arxiv_id": "str"
@@ -31,9 +31,9 @@
         "description": "Collect papers from Semantic Scholar",
         "type": "collector",
         "repo": "papercast-dev/papercast-semanticscholar",
-        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/semanticscholar.svg",
         "contributes": {
             "papercast.processors.SemanticScholarProcessor": {
+                "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/semanticscholar.svg",
                 "short_description": "Collect papers from Semantic Scholar",
                 "input_types": {
                     "corpus_id": "str"
@@ -55,10 +55,10 @@
         "description": "Trigger pipelines when new papers are added to Zotero",
         "type": "collector",
         "repo": "papercast-dev/papercast-zotero-subscriber",
-        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/zotero.png",
         "contributes": {
             "papercast.types.ZoteroOutput": {},
             "papercast.subscribers.ZoteroSubscriber": {
+                "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/zotero.png",
                 "short_description": "Trigger pipelines when new papers are added to Zotero",
                 "output_types": {
                     "zotero_output": "papercast.types.ZoteroOutput"
@@ -88,7 +88,12 @@
         "description": "LangChain LLMChain",
         "type": "processor",
         "repo": "papercast-dev/papercast-langchain-chain",
-        "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/langchain_chain.png"
+        "contributes": {
+            "pappercast.processors.LLMChainProcessor": {
+                "short_description": "Process text with LLM Chains",
+                "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/langchain_chain.png"
+            }
+        }
     },
     // {
     //     "id": "papercast-aeneas",
