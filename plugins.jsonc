@@ -81,20 +81,20 @@
             }
         }
     },
-    {
-        "id": "papercast-langchain-chain",
-        "name": "LLMChain",
-        "author": "papercast-dev",
-        "description": "LangChain LLMChain",
-        "type": "processor",
-        "repo": "papercast-dev/papercast-langchain-chain",
-        "contributes": {
-            "pappercast.processors.LLMChainProcessor": {
-                "short_description": "Process text with LLM Chains",
-                "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/langchain_chain.png"
-            }
-        }
-    },
+    // {
+    //     "id": "papercast-langchain-chain",
+    //     "name": "LLMChain",
+    //     "author": "papercast-dev",
+    //     "description": "LangChain LLMChain",
+    //     "type": "processor",
+    //     "repo": "papercast-dev/papercast-langchain-chain",
+    //     "contributes": {
+    //         "pappercast.processors.LLMChainProcessor": {
+    //             "short_description": "Process text with LLM Chains",
+    //             "icon": "https://raw.githubusercontent.com/papercast-dev/papercast-community/main/assets/img/langchain_chain.png"
+    //         }
+    //     }
+    // },
     // {
     //     "id": "papercast-aeneas",
     //     "name": "Aeneas",
