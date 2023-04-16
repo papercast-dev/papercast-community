@@ -119,7 +119,7 @@
         "type": "processor",
         "repo": "papercast-dev/papercast-grobid",
         "contributes": {
-            "papercast.processors.GrobidProcessor": {
+            "papercast.processors.GROBIDProcessor": {
                 "input_types": {
                     "pdf": "papercast.types.PDFFile"
                 },
